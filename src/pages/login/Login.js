@@ -34,6 +34,7 @@ const Login = () => {
         </div>
         <div className="login-left">
           <h2>Login as admin</h2>
+          <span style={{color : "red"}}>Email : admin@gmail.com || passsword : 123456</span>
           <form className="login-form">
             <div className="input-field">
               <input
