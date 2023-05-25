@@ -1,0 +1,35 @@
+.featured{
+    width: 100%;
+    display: flex;
+}
+.featuredItem{
+    flex: 1;
+    margin: 8px 20px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.featureIcon{
+    border-radius: 50%;
+    padding: 15px;
+    margin-right: 15px;
+}
+.currency{
+    color: blue;
+    background-color: rgba(0, 0, 255, 0.256);
+}
+.inventory{
+  color: green;
+  background-color: rgba(0, 128, 0, 0.249);
+}
+.orders{
+  color: rgb(255, 175, 27);
+  background-color: rgba(249, 179, 50, 0.219);
+}
+.featuredTitle{
+    font-size: 20px;
+    font-weight: 500;
+}

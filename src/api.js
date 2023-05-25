@@ -1,0 +1,1 @@
+export const api = "https://ecomm-server-gih1.onrender.com/api"

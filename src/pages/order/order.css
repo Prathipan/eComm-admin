@@ -1,0 +1,71 @@
+.order{
+    flex: 4;
+    background-color: rgba(211, 211, 211, 0.312);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.back-to-order{
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.order-wrapper{
+    border: 1px solid gray;
+    background-color: white;
+    height: 90vh;
+    margin: 20px;
+}
+.order-header{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.order-card{
+    display: flex;
+    align-items: center;
+}
+.order-icon{
+    font-size: 50px;
+    background-color: rgba(0, 128, 0, 0.188);
+    color: green;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.person-details,.order-details,.location-details{
+    display: flex;
+    flex-direction: column;
+}
+.order-title{
+    font-weight: 700;
+}
+.order-bottom{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.order-table{
+    width: 80%;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+.deliver-button{
+    margin: 10px 20px;
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.completed-order{
+    margin-left: 20px;
+    padding: 10px 15px;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}

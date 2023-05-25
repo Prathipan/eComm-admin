@@ -1,0 +1,26 @@
+.orders-page{
+    flex: 4;
+    background-color: rgba(211, 211, 211, 0.312);
+}
+.orders-box{
+    background-color: white;
+    padding: 10px;
+}
+.view-order{
+    cursor: pointer;
+}
+.delivered{
+    background-color: rgba(0, 128, 0, 0.201);
+    color: green;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.pending{
+    background-color: rgba(255, 166, 0, 0.21);
+    color: orange;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.table-row:hover{
+    background-color:rgb(228,228,250);
+}

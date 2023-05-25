@@ -1,0 +1,21 @@
+.edit-user{
+    flex: 4;
+    background-color: rgba(211, 211, 211, 0.312);
+    height: 90vh;
+    width: 90%;
+}
+.edit-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.edit-form{
+    padding: 10px;
+    height: 100%;
+    width: 95%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.labelName{
+    margin-top: 10px;
+}

@@ -1,0 +1,8 @@
+.home{
+    flex: 4;
+    background-color: rgba(211, 211, 211, 0.312);
+}
+.home-title{
+    font-weight: 400;
+    margin-left: 20px;
+}

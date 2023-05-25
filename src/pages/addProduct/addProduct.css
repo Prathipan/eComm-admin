@@ -1,0 +1,41 @@
+.add-products{
+    flex: 4;
+    background-color: rgba(211, 211, 211, 0.312);
+}
+.add-product-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+}
+.back-button,.publish-button{
+    display: flex;
+    align-items: center;
+    background-color: rgb(38, 120, 243);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.publish-button{
+    background-color: green;
+}
+.add-product-form{
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.27);
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+.form-field{
+    margin-top: 10px !important;
+}
